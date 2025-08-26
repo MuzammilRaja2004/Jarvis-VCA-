@@ -1,0 +1,23 @@
+# Ignore config files
+config_apps.json
+config_projects.json
+
+# Python related ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Virtual environment
+env/
+venv/
+.jarvis_env/
+*.env
+
+# VSCode settings
+.vscode/
+
+# Logs
+*.log

@@ -13,7 +13,7 @@ You can ask questions, give commands, and control your system hands-free.
 ```
 ├── config_apps.json        # Configuration for installed apps (ignored in GitHub)
 ├── config_projects.json    # Configuration for projects (ignored in GitHub)
-├── main.py                 # Main entry point
+├── jarvis.py                 # Main entry point
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
 ```
@@ -21,15 +21,15 @@ You can ask questions, give commands, and control your system hands-free.
 ## ⚙️ Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/voice-assistant.git
-   cd voice-assistant
+   git clone https://github.com/MuzammilRaja2004/Jarvis-VCA-.git
+   cd Jarvis-VCA
    ```
 
 2. Create a virtual environment and activate it:
    ```bash
    python -m venv venv
    source venv/bin/activate   # On Linux/Mac
-   venv\Scripts\activate    # On Windows
+   jarvis_env\Scripts\activate    # On Windows
    ```
 
 3. Install dependencies:
@@ -40,7 +40,7 @@ You can ask questions, give commands, and control your system hands-free.
 ## ▶️ Usage
 Run the assistant with:
 ```bash
-python main.py
+python jarvis.py
 ```
 
 ## 📝 Notes
